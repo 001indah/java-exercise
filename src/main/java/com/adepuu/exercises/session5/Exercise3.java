@@ -1,3 +1,4 @@
+
 package com.adepuu.exercises.session5;
 
 public class Exercise3 {
@@ -17,6 +18,22 @@ public class Exercise3 {
      * Output: true
      */
     public static void main(String[] args) {
+
+//case 2 check duplicate num
+
+        int duplicateNumCheck[] = {1,1,1,3,3,4,3,2,4,2};
+        int targetCheck = duplicateNumCheck[0];
+
+        boolean result = false;
+
+        for (int i = 1; i < duplicateNumCheck.length; i++) {
+            if (duplicateNumCheck[i] == targetCheck) {
+                result = true;
+                break;
+            }
+        }
+        System.out.println();
+        System.out.println("case 2.0. is there are duplicate num? " + result);
 
     }
 }
