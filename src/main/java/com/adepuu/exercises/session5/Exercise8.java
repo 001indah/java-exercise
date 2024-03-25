@@ -17,6 +17,18 @@ public class Exercise8 {
      * Output: []
      */
     public static void main(String[] args) {
+        //case 6 Java String Program to Find all Duplicates on Array
+        int findDuplicateTarget[] = {4,3,2,7,8,2,3,1}, x,y;
+        System.out.println();
+        System.out.println("Case 6.0. Duplicate element is: ");
+
+        for (x = 0; x < findDuplicateTarget.length-1; x++) {
+            for (y = x + 1; y < findDuplicateTarget.length; y++) {
+                if ((findDuplicateTarget[x]) == (findDuplicateTarget[y]) && (x != y)) {
+                    System.out.print(findDuplicateTarget[y]+", ");
+                }
+            }
+        }
 
     }
 }
