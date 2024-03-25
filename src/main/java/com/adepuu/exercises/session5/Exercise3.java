@@ -21,7 +21,7 @@ public class Exercise3 {
 
 //case 2 check duplicate num
 
-        int duplicateNumCheck[] = {1,1,1,3,3,4,3,2,4,2};
+        int duplicateNumCheck[] = {1,2,3,4};
         int targetCheck = duplicateNumCheck[0];
 
         boolean result = false;
@@ -33,7 +33,8 @@ public class Exercise3 {
             }
         }
         System.out.println();
-        System.out.println("case 2.0. is there are duplicate num? " + result);
+        System.out.println("case 2.0. is there contain double num? " + result);
+
 
     }
 }
