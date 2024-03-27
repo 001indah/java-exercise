@@ -51,6 +51,7 @@ public class Exercise5 {
         }
         for (i = 0; i < descTarget.length; i++) {
             System.out.print(descTarget[i] + ",");
+
         }
 
 

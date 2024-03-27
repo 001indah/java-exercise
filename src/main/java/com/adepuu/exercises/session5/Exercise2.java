@@ -21,17 +21,13 @@ public class Exercise2 {
         for (int i = d; i < arrRotationTarget.length; i++) {  // moves shifted element to new arr
             newRotate[i - d] = arrRotationTarget[i];
         }
-
         for (int i = 0; i < d; i++) { // Moves the unshifted elements to a new array
             newRotate[arrRotationTarget.length - d + i] = arrRotationTarget[i];
         }
-
         for (int i = 0; i < newRotate.length; i++) {
             System.out.print(newRotate[i] + " ");
         }
         System.out.println();
-
-
 
     }
 }
